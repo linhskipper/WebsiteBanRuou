@@ -1,0 +1,80 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="BackEnd.master.cs" Inherits="BackEnd" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="css/trangchu.css">
+	<link rel="stylesheet" href="css/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/icon/css/font-awesome.min.css">
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+
+            <div class="header">
+		        <div class="logo">
+			        <a href="DanhSachDonHang.aspx"><img src="img/whiskey.svg" alt=""></a>
+		        </div>
+
+        <!-- 		<div style="text-align: center; color: white; margin: auto; padding-bottom: 30px;">
+			        <h1>QUẢN LÝ TRANG WEB</h1>
+		        </div> -->
+
+		        <div class="icon">
+			        <table class="tb" style="width: 100%;">
+				        <tr style="height: 120px;" class="a">
+					        <td  colspan="2">	
+						        <a href=""><i class="fa fa-user fa-2x"></i><br>Đăng xuất</a>
+					        </td>
+				        </tr>					
+			        </table>			
+		        </div>	
+
+	        </div>
+	
+	        <div id ="golbal" align="center">
+	                <ul class="menu">
+	                    <li style="text-align: right; padding-top: 5px; padding-right: 20px;"><a href=""><i class="fa fa-home fa-2x"></i></a></li>
+	                    <li><a href="">Thêm</a>
+					         <ul class="menu1">
+	                            <li><a href="Them.aspx">Thêm danh mục rượu</a></li>
+	                            <li><a href="Them.aspx">Thêm rượu</a></li>
+	                            <li><a href="Them.aspx">Thêm tài khoản</a></li>
+	                        </ul>
+	                    </li>
+	                    <li><a href="">Sửa</a>
+					         <ul class="menu1">
+	                            <li><a href="Sua.aspx">Sửa danh mục rượu</a></li>
+	                            <li><a href="Sua.aspx">Sửa rượu</a></li>
+	                            <li><a href="Sua.aspx">Sửa tài khoản</a></li>
+	                        </ul>
+	                    </li>
+	                    <li><a href="">Xóa</a>
+					         <ul class="menu1">
+	                            <li><a href="Xoa.aspx">Xóa danh mục rượu</a></li>
+	                            <li><a href="Xoa.aspx">Xóa rượu</a></li>
+	                            <li><a href="Xoa.aspx">Xóa tài khoản</a></li>
+	                        </ul>
+	                    </li>
+
+
+	                    <li><a href="DanhSachDonHang.aspx">Xem đơn hàng</a></li>
+	                </ul>  
+	            </div>       
+            </div>
+	        <div class="content">
+		        <div class="noidung1">
+			        <h1>Nội dung</h1>
+                            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+                            </asp:ContentPlaceHolder>
+		        </div>
+	        </div>
+    </div>
+    </form>
+</body>
+</html>

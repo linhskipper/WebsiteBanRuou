@@ -1,0 +1,208 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.header{
+	width: 100%;
+	height: 150px;
+	/*background-color: lightblue;*/
+	background-color: rgb(142,3,3,1);
+}
+.logo{
+	padding-top: 30px;
+	margin-left: 90px;
+	width: 6%;
+}
+
+.timkiem {
+	width: 55%;
+	margin-left: 25%;
+	margin-top: -50px;
+	float: left;
+}
+.timkiem input{
+	text-align: center;
+	border-radius: 10px;	
+	padding-left: 25px;
+	height: 40px;
+    margin: auto;
+    border: 1px solid #dedede;
+    float: left;
+}
+.timkiem button{
+	width: 88px;
+	margin-left: 10px;
+	border-radius: 10px;
+}
+.timkiem input:focus{
+	outline: none;
+}
+.search-bar button:hover{
+	background-color: #000;
+}
+.icon{
+	width: 20%;
+	float: right;
+	text-align: center;
+	margin-top: -100px;
+}
+.tb .a td{
+	padding-left: 60px;
+}
+.tb tr td a{
+	text-decoration: none;
+}
+
+.giohang{
+	width: 120px;
+	height: 27px;
+	float: right;
+	margin-right: 17px;
+	background-color: white;
+}
+/*-----------------------------------MENU-------------------------------------------*/
+#golbal{
+	padding-top:10px; 
+	margin-top: 6px;
+	margin-left: 0px;
+
+}
+#golbal ul.menu {
+	width: 100%;
+	height:44px;
+	background-color: rgb(142,3,3,1);
+	font-family: Tahoma, Geneva, sans-serif;
+    font-style: normal;
+    font-size: 16px;
+}
+#golbal ul.menu >li{
+	list-style-type: none;
+	display: inline-block;
+	width: 120px;
+	text-align: center;
+	line-height: 38px;
+	position: relative;
+	/* margin-left: 15px; */
+	border-right: 1px dashed #ccc;
+
+}
+#golbal ul.menu1 {
+	width: 150%;
+	background-color: rgb(142,3,3,1);
+	position: absolute;
+	left: -5px;
+}
+ul.menu1 >li{
+	width: 100%;
+	font-family: Tahoma, Geneva, sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    text-transform: none;
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid yellow;
+    padding-left: 7px;
+}
+#golbal ul li a{
+	text-decoration: none;
+	color: white;
+}
+.menu1 {
+	display: none;
+	text-align: left;
+	/* padding-left: 7px; */
+}
+ul.menu >li:hover >ul.menu1{
+	display: block;
+}
+ul.menu >li:hover a{
+	color: blue;
+} 
+.menu1 li:hover {
+	background-color: blue;
+}
+.menu ul li{
+	list-style-type: none;
+}
+
+
+/*-----------------------------SIDEBAR--------------------------------------*/
+
+h6{
+	text-align: center;
+	background-color: rgb(142,3,3,1);
+	height: 40px;
+	line-height: 50px;
+	margin-left: -30px;
+	padding: 10px;
+}
+.sidebar{
+	width: 17%;
+	float: left;
+	border: 1px dashed red;
+	margin-left: 150px;
+	padding-left: 30px;
+	font-family: "Times New Roman", Times, serif;
+}
+.sidebar li a{
+	text-decoration: none;
+	color: black;
+	font-family: Tahoma, Geneva, sans-serif;
+    font-style: normal;
+    font-size: 17px;
+}
+.sidebar ul li:hover a{
+	color: red;
+}
+
+.anhGif{
+	float: right;
+	margin-right: 180px;
+}
+
+
+/* --------------------------------NOIDUNG---------------------------------- */
+.noidung{
+	width: 57%;
+	height: 470px;
+	float: right;
+	margin-top: 10px;
+	background-color: white;
+	border: 1px solid black;
+	margin-right: 180px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+/* ----------------------------FOOTER------------------------------- */
+.footer{
+	width: 100%;
+	height: 230px;
+	background-color: rgb(142,3,3,1);
+	clear: both;
+	text-align: center;
+}
+.footer .tt{
+	margin-left: 40px;
+	padding-top: 20px;
+	color: white;
+}
+.f1f{
+	width: 25%;
+	float: left;
+	text-align: left;
+	margin-left: 40px;
+}
+.f2f{
+	width: 20%;
+	float: left;
+	text-align: left;
+}
+.f3f{
+	width: 20%;
+	float: left;
+	text-align: left;
+}
+.f4f{
+	width: 20%;
+	float: left;
+	text-align: left;
+}
